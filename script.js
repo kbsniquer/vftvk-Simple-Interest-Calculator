@@ -10,7 +10,7 @@ function compute()
     if (principal <= 0) {
         alert("Enter a positive number!");
         return false;
-        principal.focus(); 
+        document.getElementById("principal").focus(); 
     }
 
     // Declare variable to calculate interest
